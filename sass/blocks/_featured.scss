@@ -1,0 +1,19 @@
+.section{
+    width: 100%;
+    .Featured{
+        width: 100%;
+        padding: 200px 0 50px 0;
+        display: flex;
+     align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        b{
+            font-size: 45px;
+            color: #08546C;
+        }
+        p{
+            color: #757575;
+            width: 450px;
+        }
+    }
+}
