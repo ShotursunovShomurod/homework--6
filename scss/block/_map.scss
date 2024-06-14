@@ -1,0 +1,38 @@
+.map {
+  width: 100%;
+  .map__wrapper{
+      .map__content {
+          background: url(../../assets/Rectangle\ 166.png) no-repeat center;
+        padding: 50px 0;
+        width: 100%;
+        height: 278px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 64px;
+        }
+        .map__top {
+          display: flex;
+          p {
+            font-size: 14px;
+            transition: 0.2s;
+            color: #fff;
+            &:hover {
+              color: #f57520;
+              cursor: pointer;
+            }
+            &:active {
+              transform: scale(0.9);
+            }
+          }
+        }
+        .map__bottum {
+          p {
+            font-size: 64px;
+            font-weight: 400;
+            color: #fff;
+          }
+        }
+      }
+  }
+}

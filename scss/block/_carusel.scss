@@ -1,0 +1,11 @@
+.carusel {
+  width: 100%;
+  .carusel__wrapper {
+    width: 100%;
+    .owl-carousel {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
