@@ -286,26 +286,18 @@
 //     console.log(getRobotPosition(['s', 's', '1', 'q', '0']));
 // }
 
-
-
-
-
-
-
-
-
 // {
 //     // for1
 //     // function number( k, n ) {
 //     //     if ( n > 0) {
 //     //         for (let i = 0; i < n; i++) {
-//     //         console.log(k);            
-//     //         }       
+//     //         console.log(k);
+//     //         }
 //     //     } else {
 //     //         return n soni musbat bo'lishi kerak.
 //     //     }
 //     // }
-    
+
 //     // console.log( number(2, 5) );
 // }
 
@@ -315,41 +307,40 @@
 //     //     let sum = 0
 //     //     if ( a < b) {
 //     //         for (let i = a; i <= b; i++) {
-//     //             console.log(i);          
+//     //             console.log(i);
 //     //         }
 //     //     } else {
 //     //         return a soni b sonidan kichik bo'lishi kerak
 //     //     }
 //     //     console.log(b - a + 1);
 //     // }
-    
+
 //     // console.log( numbers(3, 7 ) );
 // }
-
 
 // {
 //     // for3
 //     // function numbers( a, b ) {
 //     //     if ( a < b ) {
 //     //         for (let i = b -= 1; i > a; i--) {
-//     //             console.log(i);            
+//     //             console.log(i);
 //     //         }
 //     //     } else {
 //     //         return a soni b dan kichik bo'lishi kerak
 //     //     }
 //     //     console.log( b - a );
 //     // }
-    
+
 //     // console.log( numbers(1, 5) );
 // }
 
 // {
-//     // for4   
+//     // for4
 //     //     for (let i = 1; i <= 10; i++) {
-//     //         console.log(prise * i);        
+//     //         console.log(prise * i);
 //     //     }
 //     // }
-    
+
 //     // console.log( chocolate( 10000 ) );
 // }
 
@@ -357,8 +348,8 @@
 //     // for5
 //     // function chocolate(prise) {
 //     //     for (let i = 0; i < 1; i += 0.1) {
-//     //         console.log( i * prise);        
-//     //     }   
+//     //         console.log( i * prise);
+//     //     }
 //     // }
 //     // console.log( chocolate(10000) );
 // }
@@ -367,7 +358,7 @@
 //     // for6
 //     // function chocolate( prise ) {
 //     //     for (let i = 1; i <= 2; i += 0.2) {
-//     //         console.log( i * prise);        
+//     //         console.log( i * prise);
 //     //     }
 //     // }
 //     // console.log( chocolate(1000) );
@@ -379,7 +370,7 @@
 //     //     let sum = 0
 //     //     if ( a < b ) {
 //     //         for (let i = a; i < b; i++) {
-//     //             sum = sum + i            
+//     //             sum = sum + i
 //     //         }
 //     //     } else {
 //     //         return a soni b sonidan kichik bo'lishi kerak
@@ -395,14 +386,14 @@
 //     //     let sum = 1
 //     //     if ( a < b) {
 //     //         for (let i = a; i < b; i++) {
-//     //             sum = sum * i            
+//     //             sum = sum * i
 //     //         }
 //     //     } else {
 //     //         return a soni b sonidan kichik bo'lishi kerak
 //     //     }
 //     //     console.log(${a} dan ${b} gacha bo'lgan sonlar ko'paytmasi ${sum} ga teng);
 //     // }
-    
+
 //     // console.log( number(2, 7) );
 // }
 
@@ -412,7 +403,7 @@
 //     //     let sum = 0
 //     //     if ( a < b) {
 //     //         for (let i = a; i < b; i++) {
-//     //             sum = sum + (i * i)            
+//     //             sum = sum + (i * i)
 //     //         }
 //     //     } else {
 //     //         return a soni b sonidan kichik bo'lishi kerak
@@ -444,14 +435,14 @@
 //     //     let sum = 0
 //     //     if ( n > 0) {
 //     //         for (let i = 0; i < n; i++) {
-//     //             sum = sum + ( ( i + n ) * ( i + n ))            
+//     //             sum = sum + ( ( i + n ) * ( i + n ))
 //     //         }
 //     //     } else {
 //     //         return n soni 0 dan katta bo'lishi kerak
 //     //     }
 //     //     console.log(Javob: ${sum});
 //     // }
-    
+
 //     // console.log( number() );
 // }
 
@@ -461,7 +452,7 @@
 //     //     let result = 1
 //     //     if ( n > 0 ) {
 //     //         for (let i = 1.1; i < n; i += 0.1) {
-//     //             result = result * i            
+//     //             result = result * i
 //     //         }
 //     //     } else {
 //     //         return n soni 0 dan katta bo'lishi kerak
@@ -477,13 +468,13 @@
 //     //     let result = 0
 //     //     if ( n > 0 ) {
 //     //         for (let i = 1.1; i < n; i += 0.1) {
-//     //             result = result + i            
+//     //             result = result + i
 //     //         }
 //     //     } else {
 //     //         return n soni 0 dan katta bo'lishi kerak
 //     //     }
 //     //     console.log( result );
 //     // }
-    
+
 //     // console.log( number ( 7 ) );
 // }
