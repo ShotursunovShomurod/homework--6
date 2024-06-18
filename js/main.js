@@ -247,44 +247,19 @@
 //     //     console.log(getDaysInGivenYearMonth(2020, 2));
 //     // }
 
-// case10
-// {
-//     function getRobotPosition(commands) {
-//         let position = [0, 0];
-//         let direction = 0; // 0: north, 1: east, 2: south, 3: west
 
-//         for (let command of commands) {
-//             switch (command) {
-//                 case 's':
-//                     position[1]++;
-//                     break;
-//                 case 'j':
-//                     position[1]--;
-//                     break;
-//                 case 'q':
-//                     position[0]++;
-//                     break;
-//                 case 'g':
-//                     position[0]--;
-//                     break;
-//                 case '1':
-//                     direction = (direction + 3) % 4;
-//                     break;
-//                 case '2':
-//                     direction = (direction + 1) % 4;
-//                     break;
-//                 case '0':
-//                     if (direction === 0) position[1]++;
-//                     else if (direction === 1) position[0]++;
-//                     else if (direction === 2) position[1]--;
-//                     else if (direction === 3) position[0]--;
-//                     break;
-//             }
-//         }
-//         return position;
-//     }
-//     console.log(getRobotPosition(['s', 's', '1', 'q', '0']));
-// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 // {
 //     // for1
@@ -389,9 +364,9 @@
 //     //             sum = sum * i
 //     //         }
 //     //     } else {
-//     //         return a soni b sonidan kichik bo'lishi kerak
+//     //         return a soni b dan kichik bo'lishi kerak
 //     //     }
-//     //     console.log(${a} dan ${b} gacha bo'lgan sonlar ko'paytmasi ${sum} ga teng);
+//     //     console.log(${a} dan ${b} gacha sonlar ko'paytmasi ${sum} ga teng);
 //     // }
 
 //     // console.log( number(2, 7) );
@@ -406,7 +381,7 @@
 //     //             sum = sum + (i * i)
 //     //         }
 //     //     } else {
-//     //         return a soni b sonidan kichik bo'lishi kerak
+//     //         return a soni b sonidan kichik bo'lishi kerakx
 //     //     }
 //     //     console.log(${a} dan ${b} gacha bo'lgan barcha butun sonlar kvadratlarining yig'indisi =  ${sum});
 //     // }
@@ -422,7 +397,7 @@
 //     //             sum = i/n + sum
 //     //         }
 //     //     } else {
-//     //         return n soni 0 dan kichik bo'lishi mumkin emas
+//     //         return n soni 0 dan kotta bolishi kere
 //     //     }
 //     //     console.log(sum);
 //     // }
@@ -438,7 +413,7 @@
 //     //             sum = sum + ( ( i + n ) * ( i + n ))
 //     //         }
 //     //     } else {
-//     //         return n soni 0 dan katta bo'lishi kerak
+//     //         return n soni 0 dan kotta bolishi kera
 //     //     }
 //     //     console.log(Javob: ${sum});
 //     // }
@@ -455,7 +430,7 @@
 //     //             result = result * i
 //     //         }
 //     //     } else {
-//     //         return n soni 0 dan katta bo'lishi kerak
+//     //         return n son 0 dan kotta bolsin
 //     //     }
 //     //     return Javob: ${result}
 //     // }
@@ -477,4 +452,33 @@
 //     // }
 
 //     // console.log( number ( 7 ) );
+// }
+
+
+// for14
+// {
+//     function sumOfOddSquares(n) {
+//         let sum = 0;
+//         for (let i = 1; i <= n; i++) {
+//             sum += (2 * i - 1) ** 2;
+//         }
+//         return sum;
+//     }
+    
+//     // Example usage
+//     console.log(sumOfOddSquares(5));    
+// }
+
+// for15
+// {
+//     function power(a, n) {
+//         let result = 1;
+//         for (let i = 0; i < n; i++) {
+//             result *= a;
+//         }
+//         return result;
+//     }
+    
+//     // Example usage
+//     console.log(power(2, 3));    
 // }
